@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+            margin: 0px;
+        }
+        header {
+            color: white;
+            background-color: brown;
+            height: 100px;
+            border: 10px;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            
+                     
+        } 
+        main {
+            margin: 15px;  
+            border-radius: 5px; 
+            
+        }
+        article {
+            background-color: white;
+            border-radius: 10px; 
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.178);
+        }
+        article > aside {
+            background-color: rgb(197, 143, 143);
+        
+        }
+        a.links {
+            color: white;
+            font-size: 20px;  
+            text-decoration: none;
+            margin-right: 15px;
+            
+        }
+        nav {
+            background-color: chocolate;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.212)
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            
+        }
+        article#assuntos {
+            margin: 15px;
+            padding: 10px;
+            border: 15px medium brown;
+        }
+        article#tradicao {
+            margin: 15px;
+            padding: 10px;
+            border: 15px medium brown;
+
+        }
+        footer { 
+            color: white;
+            text-align: center;
+            background-color: chocolate;
+            padding: 4px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Estrutura do site</h1>
+        <nav>
+            <a href="#" class="links">Cavalos</a> 
+            <a href="#" class="links">Produtos</a>
+            <a href="#" class="links">Haras</a> 
+            <a href="#" class="links">Destaques</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="assuntos">
+                <h2>Novos Cavalos</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto temporibus voluptatem modi aut repellendus ratione dolore dolorem vitae quidem, ducimus amet sit dolores consequatur expedita accusantium officiis, sed atque nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ipsam esse, eius dolore vitae nostrum reiciendis beatae magni, itaque odit mollitia amet temporibus in dolor obcaecati cumque necessitatibus sit animi.</p>
+                <aside>
+                    Por Tabarel da Silva
+                </aside>
+            </article>
+            <article id="noticias">
+
+            </article>
+            <article id="tradicao">
+                <h2>Linhagem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis natus tempora labore quos quasi nulla eum cupiditate! Cum, ratione. Impedit, consequatur. Quis, debitis illo fuga impedit nemo est dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus natus dolorem, voluptatem maxime optio asperiores adipisci inventore nisi accusamus eaque fugiat rem deserunt est perferendis veritatis, libero cumque dolor. Fugit!</p>
+                <aside>Por Jureima Andrade</aside>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        Desenvolvido por Haras42
+    </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@charset "UTF -8";
+
+body {
+    background-color: moccasin;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+                
+}
+h1 {
+    color: brown;
+    background-color: beige;
+    font-size: 1.5am;
+    text-align: center;
+}
+h2 {
+    font-size: 1.2am;
+    color: chocolate;
+    
+}
+p {
+    text-align: justify;
+}
+    
