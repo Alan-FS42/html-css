@@ -4,17 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personalização de fundo</title>
+    <title>Teste de imagens de fundo</title>
     <style>
         body {
-            background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
-            background-size: 100px 100px;
-            background-repeat: no-repeat;
+            background-image: url('imagens/wallpaper002.jpg');
             
+        }
+        div.quadrado {
+            display: inline-block;
+            background-color: silver;
+            border: 2px solid black;
+            margin: 5px;
+            width: 250px;
+            height: 250px;
+            border-radius: 5px;
+        }
+
+        div#q1 {
+            background-color: lightblue;
+        }
+        div#q2 {
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+        div#q3 {
+            background-image: url('imagens/pattern003.png');
         }
     </style>
 </head>
 <body>
-   
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
 </body>
 </html>
