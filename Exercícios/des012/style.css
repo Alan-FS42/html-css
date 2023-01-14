@@ -15,7 +15,7 @@
 
 html, body {
     min-height: 100vh;
-    background-color: cornsilk;
+    background-color: white;
     font-family: var(--fonte1);
 }
 
@@ -56,15 +56,29 @@ section {
     font-size: 2vw;
 
 }
+section > p {
+    padding-bottom: 2em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.256);
+}
 section.normal {
     background-color: none;
 
 }
 section.imagem {
     background-color: rgba(0, 0, 0, 0.594);
-    color: white;
-    
-    
+    color: white;  
+    box-shadow: inset 6px 6px 13px 6px rgba(0, 0, 0, 0.283);
+    background-attachment: fixed;
+}
+section#img01{
+    background-image: url('../des012/imagens/background001.jpg');
+    background-position: center right;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../des012/imagens/background002.jpg');
+    background-position: right bottom;
+    background-size: cover;
 }
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.498);
@@ -72,7 +86,6 @@ section.imagem > p {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.228);
-
 }
 
 footer {
